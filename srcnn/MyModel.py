@@ -7,7 +7,7 @@ from torchvision import datasets
 from torchvision.transforms import ToTensor, Lambda, Compose
 
 
-class Model(nn.module):
+class Model(nn.Module):
     def __init__(self,f_1,f_2,f_3,n_1,n_2) -> None:
         super(Model,self).__init__()
         self.n_1 = n_1
